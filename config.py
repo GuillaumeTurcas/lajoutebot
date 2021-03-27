@@ -1,1 +1,5 @@
-TOKEN = "not my token"
+TOKEN = "notmytoken"
+hst = "notmyhost"
+usr = "notmyuser"
+psswd = "notmypassword"
+db = "notmydb"

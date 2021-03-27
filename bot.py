@@ -4,17 +4,17 @@ import requests
 import time
 import urllib
 import random
-from config import TOKEN
+from config import TOKEN, hst, usr, psswd, db
 
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="lajoute",
-  database="lajoute"
+  host = hst,
+  user = usr,
+  password = psswd,
+  database = db
 )
 
 mycursor = mydb.cursor()
